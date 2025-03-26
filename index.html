@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Cards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+   <div class="container">
+    <div class="card1">
+    <div class="header">YAY! It's BOGO</div>
+    
+    <div class="card" onclick="toggleExpand(this)">
+        <div class="card-top">
+            <div class="card-left">
+                <input type="radio" name="units" />
+                <strong style="font-size :x-large;">1 Unit</strong> 
+                <span class="discount">10% Off</span> 
+            </div>
+            <div class="card-right">
+                <div class="price">$10.00 USD</div>
+                <div class="old-price">$24.00 USD</div>
+            </div>
+        </div>
+        <span style="display: block; margin-left: 40px;">Standard Price </span>
+   
+        <div class="options">
+            <br>
+            <div style="display: flex; column-gap: 30px; margin-left: 30px;">
+           
+                <span>Size</span>
+                <span>Colour</span>
+            </div>
+            <div class="option-row">
+                <span>#1</span>
+                <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                </select>
+                <select>
+                    <option>Black</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                </select>
+            </div>
+            <div class="option-row">
+                <span>#2</span>
+                <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                </select>
+                <select>
+                    <option>Black</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="card popular" onclick="toggleExpand(this)">
+        <div class="ribbon" >MOST POPULAR</div>
+        <div class="card-top">
+            <div class="card-left">
+                <input type="radio" name="units" />
+                <strong style="font-size :x-large;">2 Unit</strong>
+                <span class="discount">20% Off</span>
+            </div>
+            <div class="card-right">
+                <div class="price">$18.00 USD</div>
+                <div class="old-price">$24.00 USD</div>
+            </div>
+        </div>
+      
+        <div class="options">
+            <br>
+            <div style="display: flex; column-gap: 30px; margin-left: 30px;">
+                <span>Size</span>
+                <span>Colour</span>
+            </div>
+            <div class="option-row">
+                <span>#1</span>
+                <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                </select>
+                <select>
+                    <option>Black</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                </select>
+            </div>
+            <div class="option-row">
+                <span>#2</span>
+                <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                </select>
+                <select>
+                    <option>Black</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" onclick="toggleExpand(this)">
+        <div class="card-top">
+            <div class="card-left">
+                <input type="radio" name="units" />
+                <strong style="font-size :x-large;">3 Unit</strong> 
+                <span class="discount">30% Off</span> 
+            </div>
+            <div class="card-right">
+                <div class="price">$24.00 USD</div>
+                <div class="old-price">$24.00 USD</div>
+            </div>
+        </div>
+      
+   
+        <div class="options">
+            <br>
+            <div style="display: flex; column-gap: 30px; margin-left: 30px;">
+                <span>Size</span>
+                <span>Colour</span>
+            </div>
+            <div class="option-row">
+                <span>#1</span>
+                <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                </select>
+                <select>
+                    <option>Black</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                </select>
+            </div>
+            <div class="option-row">
+                <span>#2</span>
+                <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                </select>
+                <select>
+                    <option>Black</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+
+    <div class="free-delivery">Free Delivery</div>
+    <div class="total-price">Total: $18.00 USD</div>
+    <button class="add-to-cart">+ Add to Cart</button>
+    <div class="powered-by">@ Powered by Pumper</div>
+
+</div>
+</div>
+
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
